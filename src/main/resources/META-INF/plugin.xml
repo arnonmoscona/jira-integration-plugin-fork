@@ -1,11 +1,11 @@
 <idea-plugin>
     <id>com.intellij.jira</id>
-    <name>Jira Integration</name>
-    <vendor email="adrielsr3@gmail.com" url="https://gitlab.com/adrielsr/jira-intellij-plugin">Adriel Saa Romano</vendor>
+    <name>Jira Integration (FORK)</name>
+    <vendor email="adrielsr3@gmail.com" url="https://gitlab.com/adrielsr/jira-intellij-plugin">Originally: Adriel Saa Romano</vendor>
 
     <description>
         <![CDATA[
-
+            <bold>FORK</bold>
             This plugin provides the followings functionalities:
             <ul>
                 <li>Fetch issues from server with customizable searchers</li>
@@ -21,7 +21,7 @@
     <depends>com.intellij.tasks</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="JIRA" anchor="bottom" icon="/icons/ico-jira-16.png" factoryClass="com.intellij.jira.ui.JiraToolWindowFactory" canCloseContents="true"/>
+        <toolWindow id="JIRA (fork)" anchor="bottom" icon="/icons/ico-jira-16.png" factoryClass="com.intellij.jira.ui.JiraToolWindowFactory" canCloseContents="true"/>
 
         <applicationService serviceImplementation="com.intellij.jira.components.JiraNotificationManager"/>
         <applicationService serviceImplementation="com.intellij.jira.components.JQLSearcherApplicationManager"/>
